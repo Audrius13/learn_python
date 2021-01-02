@@ -1,6 +1,8 @@
+# Game options
 options = ['paper', 'rock', 'scissors']
 
 
+# Logic to pick a winner
 def check_winer(x, y):
     if x == y:
         return "It's a draw"
@@ -17,6 +19,7 @@ def check_winer(x, y):
     else:
         return y
 
+# Main game logic
 while True:
     player1 = input('Please enter "Paper", "Rock" or "Scissors": ').strip()
     player2 = input('Please enter "Paper", "Rock" or "Scissors": ').strip()
